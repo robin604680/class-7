@@ -100,7 +100,6 @@ nav{
 }
 
 .about-img {
-    border: 2px solid black;
     float: left;
     width: 50%;
     overflow: hidden;
@@ -114,16 +113,20 @@ nav{
     float: left;
     width: 50%;
     overflow: hidden;
-    border: 2px solid black;
+    
 }
 
-.about-content h3 {
+.about-content h2 {
     margin: 5px;
+    font-size: 30px;
     width: 100%;
+    text-align: center;
 }
 
 .about-content p {
     margin: 5px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .services{
@@ -131,7 +134,16 @@ nav{
     background-color: rgb(250, 71, 95);
 }
 
+.services h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    text-decoration: underline;
+}
+
 .service-item {
+    text-align: center;
+    margin: 10px;
     width: 23%;
     float: left;
     overflow: hidden;
@@ -142,7 +154,8 @@ nav{
 }
 
 .blog {
-    width: 33%;
+    text-align: center;
+    width: 30%;
     float: left;
     overflow: hidden;
 }
@@ -155,9 +168,26 @@ nav{
     background-color: #009FBD;
 }
 
-.widgets {
+.side-item ul li {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer {
     width: 100%;
     overflow: hidden;
     background-color: #210062;
+}
+
+.copyright {
+    width: 70%;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.copyright span {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #77037B;
 }
 
