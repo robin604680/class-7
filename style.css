@@ -3,3 +3,161 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-header {
+    overflow: hidden;
+}
+
+nav{
+    overflow: hidden;
+    background-color: yellowgreen;
+    margin-top: 10px;
+}
+ .logo {
+    width: 30%;
+    float: left;
+
+ }
+
+.logo img {
+    width: 30%;
+    margin: 10px;
+}
+
+.main-manu {
+    margin-top: 50px;
+    overflow: hidden;
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+
+.main-manu li{
+    display: inline-block;
+    list-style: none;
+    margin:10px;
+}
+
+.main-manu li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.banner {
+    background-image: url(./assets/img/Banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner-area {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+}
+.banner-area h2 {
+    text-transform: capitalize;
+    padding-top: 100px;
+    color: white;
+    font-size: 50px;
+}
+
+.banner-area p {
+    padding: 28px;
+    color: white;
+    font-size: 20px;
+}
+
+.banner-area a{
+    color: white;
+    font-size: 20px;
+}
+
+.ban-btn {
+    background-color: #054203;
+    color: #f5deb3;
+    padding: 15px 20px;
+    border: 2px solid #ff0000;
+    border-radius: 28px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.about{
+    overflow: hidden;
+    background-color: gold;
+}
+
+.content-area {
+    width: 80%;
+    float: left;
+    background-color: #F9E2AF;
+    overflow: hidden;
+}
+
+.about-img {
+    border: 2px solid black;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-content {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.about-content h3 {
+    margin: 5px;
+    width: 100%;
+}
+
+.about-content p {
+    margin: 5px;
+}
+
+.services{
+    overflow: hidden;
+    background-color: rgb(250, 71, 95);
+}
+
+.service-item {
+    width: 23%;
+    float: left;
+    overflow: hidden;
+}
+
+.blogs {
+    overflow: hidden;
+}
+
+.blog {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+}
+
+.sideber {
+    width: 20%;
+    min-height: 650px;
+    float: right;
+    overflow: hidden;
+    background-color: #009FBD;
+}
+
+.widgets {
+    width: 100%;
+    overflow: hidden;
+    background-color: #210062;
+}
+
