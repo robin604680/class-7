@@ -10,7 +10,7 @@
 
 nav{
     overflow: hidden;
-    background-color: yellowgreen;
+    background-color: #FFE5CA;
     margin-top: 10px;
 }
  .logo {
@@ -79,7 +79,7 @@ nav{
 }
 
 .ban-btn {
-    background-color: #054203;
+    background-color: #044614;
     color: #f5deb3;
     padding: 15px 20px;
     border: 2px solid #ff0000;
@@ -89,13 +89,13 @@ nav{
 }
 .about{
     overflow: hidden;
-    background-color: gold;
+    background-color: #FFE5CA;
 }
 
 .content-area {
     width: 80%;
     float: left;
-    background-color: #F9E2AF;
+    background-color: #FA9884;
     overflow: hidden;
 }
 
@@ -184,10 +184,9 @@ nav{
     height: 100px;
     padding-top: 42px;
     overflow: hidden;
-    background-color: #a38ece;
+    background-color: #E74646;
 }
 .widget {
-    margin-top:;
     display: inline;
     padding: 175px;
 }
