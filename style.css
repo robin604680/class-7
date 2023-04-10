@@ -152,6 +152,12 @@ nav{
 .blogs {
     overflow: hidden;
 }
+.blogs h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: underline;
+}
 
 .blog {
     text-align: center;
@@ -162,7 +168,7 @@ nav{
 
 .sideber {
     width: 20%;
-    min-height: 650px;
+    min-height: 727px;
     float: right;
     overflow: hidden;
     background-color: #009FBD;
@@ -175,10 +181,19 @@ nav{
 
 .footer {
     width: 100%;
+    height: 100px;
+    padding-top: 42px;
     overflow: hidden;
-    background-color: #210062;
+    background-color: #a38ece;
 }
-
+.widget {
+    margin-top:;
+    display: inline;
+    padding: 175px;
+}
+.footer h3{
+    display: inline-block;
+}
 .copyright {
     width: 70%;
     text-align: center;
@@ -187,7 +202,7 @@ nav{
 
 .copyright span {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 35px;
     color: #77037B;
 }
 
